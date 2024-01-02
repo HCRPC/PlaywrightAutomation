@@ -1,0 +1,102 @@
+<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="1.013429">
+<testsuite name="AllureReporters.spec.js" timestamp="2023-12-18T14:32:42.968Z" hostname="chromium" tests="1" failures="1" skipped="0" time="0.071" errors="0">
+<testcase name="ThirdPartyReporters-Allure Reporter In Playwright" classname="AllureReporters.spec.js" time="0.071">
+<failure message="AllureReporters.spec.js:3:5 ThirdPartyReporters-Allure Reporter In Playwright" type="FAILURE">
+<![CDATA[  [chromium] › AllureReporters.spec.js:3:5 › ThirdPartyReporters-Allure Reporter In Playwright ─────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\h.arpaci\AppData\Local\ms-playwright\chromium-1091\chrome-win\chrome.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\AllureReporters-ThirdPartyReporters-Allure-Reporter-In-Playwright-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\AllureReporters-ThirdPartyReporters-Allure-Reporter-In-Playwright-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\AllureReporters-ThirdPartyReporters-Allure-Reporter-In-Playwright-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2023-12-18T14:32:42.968Z" hostname="chromium" tests="2" failures="2" skipped="0" time="0.135" errors="0">
+<testcase name="Reporters Test 1" classname="Reporters.spec.js" time="0.054">
+<failure message="Reporters.spec.js:3:5 Reporters Test 1" type="FAILURE">
+<![CDATA[  [chromium] › Reporters.spec.js:3:5 › Reporters Test 1 ────────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\h.arpaci\AppData\Local\ms-playwright\chromium-1091\chrome-win\chrome.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Reporters-Reporters-Test-1-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Reporters-Reporters-Test-1-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Reporters-Test-1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Reporters Test2" classname="Reporters.spec.js" time="0.081">
+<failure message="Reporters.spec.js:30:5 Reporters Test2" type="FAILURE">
+<![CDATA[  [chromium] › Reporters.spec.js:30:5 › Reporters Test2 ────────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\h.arpaci\AppData\Local\ms-playwright\chromium-1091\chrome-win\chrome.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Reporters-Reporters-Test2-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Reporters-Reporters-Test2-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Reporters-Test2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
