@@ -1,7 +1,0 @@
-{
-  name: 'cihan',
-  job: 'trainer',
-  id: '443',
-  createdAt: '2023-12-19T19:21:27.277Z'
-}
-443
